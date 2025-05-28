@@ -8,7 +8,14 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
+import { FaFacebook } from "react-icons/fa";
+
 export default function Home() {
+
+  const openUrl = (url: string) => {
+    window.open(url, "_blank");
+  };
+
   return (
     <div className="flex min-h-screen flex-col items-center justify-between p-24">
         <Card className="w-full w-[300px] h-auto items-center justify-center">
@@ -25,9 +32,11 @@ export default function Home() {
           <CardContent>
             <p>Card Content</p>
           </CardContent>
-          <CardFooter>
+          <CardFooter className="flex flex-col items-center justify-center space-y-4">
             <p>Connect with me!</p>
-            <div className=""></div>
+            <div className="flex">
+              <FaFacebook color="white" size={30}/>
+            </div>
           </CardFooter>
         </Card>
     </div>
