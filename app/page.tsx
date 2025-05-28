@@ -8,7 +8,8 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
-import { FaFacebook } from "react-icons/fa";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 export default function Home() {
 
@@ -34,8 +35,10 @@ export default function Home() {
           </CardContent>
           <CardFooter className="flex flex-col items-center justify-center space-y-4">
             <p>Connect with me!</p>
-            <div className="flex">
+            <div className="flex justify-evenly">
               <FaFacebook color="white" size={30}/>
+              <FaInstagram color="white" size={30}/>
+              <FaXTwitter color="white" size={30}/>
             </div>
           </CardFooter>
         </Card>
