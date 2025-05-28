@@ -43,13 +43,20 @@ export default function Home() {
                 onClick={() => openUrl("https://www.facebook.com/profile.php?id=100082973132783")}/>
 
               <FaInstagram color="white" size={30}
-                onClick={() => openUrl("https://www.instagram.com/meguri.ken/")}
-              />
+                onClick={() => openUrl("https://www.instagram.com/meguri.ken/")}/>
 
-              <FaXTwitter color="white" size={30}/>
-              <FaPixiv color="white" size={30}/>
-              <FaTiktok color="white" size={30}/>
-              <FaBluesky color="white" size={30}/>
+              <FaXTwitter color="white" size={30}
+               onClick={() => openUrl("https://x.com/meguri_kenn")}/>
+
+              <FaPixiv color="white" size={30}
+               onClick={() => openUrl("https://www.pixiv.net/en/users/76892551")}/>
+
+              <FaTiktok color="white" size={30}
+               onClick={() => openUrl("https://www.tiktok.com/@meguri.art")}/>
+
+              <FaBluesky color="white" size={30}
+               on/>
+
               <SiKofi color="white" size={30}/>
             </div>
           </CardFooter>
