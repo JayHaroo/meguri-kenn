@@ -9,7 +9,8 @@ import {
 } from "@/components/ui/card";
 
 import { FaFacebook, FaInstagram } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaXTwitter, FaPixiv, FaTiktok, FaBluesky } from "react-icons/fa6";
+import { SiKofi } from "react-icons/si";
 
 export default function Home() {
 
@@ -28,6 +29,7 @@ export default function Home() {
             
             <CardTitle>Meguri.kenn</CardTitle>
             <CardDescription>Hello! I like to draw :> </CardDescription>
+            <CardDescription>meguri.kenn@gmail.com</CardDescription>
             
           </CardHeader>
           <CardContent>
@@ -35,10 +37,14 @@ export default function Home() {
           </CardContent>
           <CardFooter className="flex flex-col items-center justify-center space-y-4">
             <p>Connect with me!</p>
-            <div className="flex justify-evenly">
+            <div className="grid grid-cols-4 gap-2">
               <FaFacebook color="white" size={30}/>
               <FaInstagram color="white" size={30}/>
               <FaXTwitter color="white" size={30}/>
+              <FaPixiv color="white" size={30}/>
+              <FaTiktok color="white" size={30}/>
+              <FaBluesky color="white" size={30}/>
+              <SiKofi color="white" size={30}/>
             </div>
           </CardFooter>
         </Card>
