@@ -55,9 +55,10 @@ export default function Home() {
                onClick={() => openUrl("https://www.tiktok.com/@meguri.art")}/>
 
               <FaBluesky color="white" size={30}
-               on/>
+               onClick={() => openUrl("https://bsky.app/profile/meguri-kenn.bsky.social")}/>
 
-              <SiKofi color="white" size={30}/>
+              <SiKofi color="white" size={30}
+               onClick={() => openUrl("https://ko-fi.com/meguriken")}/>
             </div>
           </CardFooter>
         </Card>
