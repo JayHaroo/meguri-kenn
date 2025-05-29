@@ -8,6 +8,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { Separator } from "@/components/ui/separator";
 
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { FaXTwitter, FaPixiv, FaTiktok, FaBluesky } from "react-icons/fa6";
@@ -36,12 +37,16 @@ export default function Home() {
           <CardDescription>Hello! I like to draw :{">"} </CardDescription>
           <div className="flex">
             <MdEmail color="white" size={20} className="mr-1" />
-            <CardDescription className="text-white">meguri.kenn@gmail.com</CardDescription>
+            <CardDescription className="text-white">
+              meguri.kenn@gmail.com
+            </CardDescription>
           </div>
         </CardHeader>
+        <Separator />
         <CardContent>
           <p>Card Content</p>
         </CardContent>
+        <Separator />
         <CardFooter className="flex flex-col items-center justify-center space-y-4">
           <p>Connect with me!</p>
           <div className="grid grid-cols-4 gap-2">
