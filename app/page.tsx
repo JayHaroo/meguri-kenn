@@ -40,10 +40,12 @@ export default function Home() {
             <p>Connect with me!</p>
             <div className="grid grid-cols-4 gap-2">
               <FaFacebook color="white" size={30}
-                onClick={() => openUrl("https://www.facebook.com/profile.php?id=100082973132783")}/>
+                onClick={() => openUrl("https://www.facebook.com/profile.php?id=100082973132783")}
+                title="Facebook"/>
 
               <FaInstagram color="white" size={30}
-                onClick={() => openUrl("https://www.instagram.com/meguri.ken/")}/>
+                onClick={() => openUrl("https://www.instagram.com/meguri.ken/")}
+                title="Instagram"/>
 
               <FaXTwitter color="white" size={30}
                onClick={() => openUrl("https://x.com/meguri_kenn")}/>
