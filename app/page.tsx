@@ -48,10 +48,12 @@ export default function Home() {
                 title="Instagram"/>
 
               <FaXTwitter color="white" size={30}
-               onClick={() => openUrl("https://x.com/meguri_kenn")}/>
+               onClick={() => openUrl("https://x.com/meguri_kenn")}
+               title="X"/>
 
               <FaPixiv color="white" size={30}
-               onClick={() => openUrl("https://www.pixiv.net/en/users/76892551")}/>
+               onClick={() => openUrl("https://www.pixiv.net/en/users/76892551")}
+               title="Pixiv"/>
 
               <FaTiktok color="white" size={30}
                onClick={() => openUrl("https://www.tiktok.com/@meguri.art")}/>
