@@ -64,7 +64,8 @@ export default function Home() {
                title="Bluesky"/>
 
               <SiKofi color="white" size={30}
-               onClick={() => openUrl("https://ko-fi.com/meguriken")}/>
+               onClick={() => openUrl("https://ko-fi.com/meguriken")}
+               title="Ko-Fi"/>
             </div>
           </CardFooter>
         </Card>
