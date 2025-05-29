@@ -56,10 +56,12 @@ export default function Home() {
                title="Pixiv"/>
 
               <FaTiktok color="white" size={30}
-               onClick={() => openUrl("https://www.tiktok.com/@meguri.art")}/>
+               onClick={() => openUrl("https://www.tiktok.com/@meguri.art")}
+               title="TikTok"/>
 
               <FaBluesky color="white" size={30}
-               onClick={() => openUrl("https://bsky.app/profile/meguri-kenn.bsky.social")}/>
+               onClick={() => openUrl("https://bsky.app/profile/meguri-kenn.bsky.social")}
+               title="Bluesky"/>
 
               <SiKofi color="white" size={30}
                onClick={() => openUrl("https://ko-fi.com/meguriken")}/>
